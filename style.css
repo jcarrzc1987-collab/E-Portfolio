@@ -208,6 +208,10 @@ nav {
 
 /* PROJECTS */
 
+img {
+  width: 100%;
+}
+
 .project__img {
   width: 100%;
   transition: all 500ms ease;
