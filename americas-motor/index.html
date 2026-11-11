@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Americas Motor | Quality Used Cars</title>
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <script src="https://kit.fontawesome.com/f5ae088f7a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="#" class="nav__logo">
+        <img src="./assets/logo.svg" alt="Americas Motor logo" class="nav__logo--img">
+        <span class="nav__logo--text">Americas <span class="text--red">Motor</span></span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#inventory" class="nav__link">Inventory</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#financing" class="nav__link">Financing</a></li>
+        <li><a href="#contact" class="nav__link nav__link--primary">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero__content">
+      <h1 class="hero__title">Drive Home <span class="text--red">Happy</span></h1>
+      <p class="hero__para">Hand-picked, inspected, and fairly priced vehicles. Find the right car for your life and budget at Americas Motor.</p>
+      <div class="hero__buttons">
+        <a href="#inventory" class="btn btn--red">Browse Inventory</a>
+        <a href="#financing" class="btn btn--outline">Get Pre-Approved</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>500+</strong><span>Cars Sold</span></li>
+        <li><strong>150-pt</strong><span>Inspection</span></li>
+        <li><strong>4.9 ★</strong><span>Customer Rating</span></li>
+      </ul>
+    </div>
+    <figure class="hero__img--wrapper">
+      <img src="./assets/car-red.svg" alt="Illustration of a car" class="hero__img">
+    </figure>
+  </header>
+
+  <!-- SEARCH BAR -->
+  <section class="search">
+    <form class="search__form" onsubmit="return false;">
+      <select class="search__input" aria-label="Make">
+        <option>Any Make</option>
+        <option>Toyota</option>
+        <option>Honda</option>
+        <option>Ford</option>
+        <option>Chevrolet</option>
+        <option>Nissan</option>
+      </select>
+      <select class="search__input" aria-label="Body style">
+        <option>Any Body Style</option>
+        <option>Sedan</option>
+        <option>SUV</option>
+        <option>Truck</option>
+        <option>Coupe</option>
+      </select>
+      <select class="search__input" aria-label="Max price">
+        <option>Any Price</option>
+        <option>Under $15,000</option>
+        <option>Under $25,000</option>
+        <option>Under $35,000</option>
+      </select>
+      <button class="btn btn--red search__btn" type="submit">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </form>
+  </section>
+
+  <!-- INVENTORY -->
+  <section id="inventory" class="section">
+    <div class="container">
+      <h2 class="section__title">Featured <span class="text--red">Inventory</span></h2>
+      <p class="section__sub-title">Every vehicle comes with a free history report and a 30-day warranty.</p>
+      <div class="cars">
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--blue">
+            <img src="./assets/car-blue.svg" alt="2021 Toyota Camry" class="car__img">
+            <span class="car__tag">Low Miles</span>
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2021 Toyota Camry SE</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 28,400 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Gas</li>
+              <li><i class="fas fa-cogs"></i> Auto</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$22,995</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--red">
+            <img src="./assets/car-crimson.svg" alt="2020 Honda Civic" class="car__img">
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2020 Honda Civic EX</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 35,100 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Gas</li>
+              <li><i class="fas fa-cogs"></i> CVT</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$19,450</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--dark">
+            <img src="./assets/car-dark.svg" alt="2019 Ford F-150" class="car__img">
+            <span class="car__tag">Best Seller</span>
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2019 Ford F-150 XLT</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 52,800 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Gas</li>
+              <li><i class="fas fa-cogs"></i> Auto</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$31,900</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--silver">
+            <img src="./assets/car-silver.svg" alt="2022 Nissan Rogue" class="car__img">
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2022 Nissan Rogue SV</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 18,900 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Gas</li>
+              <li><i class="fas fa-cogs"></i> CVT</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$26,750</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--green">
+            <img src="./assets/car-green.svg" alt="2018 Chevrolet Malibu" class="car__img">
+            <span class="car__tag">Great Deal</span>
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2018 Chevrolet Malibu LT</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 61,200 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Gas</li>
+              <li><i class="fas fa-cogs"></i> Auto</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$14,800</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="car">
+          <figure class="car__img--wrapper car__img--gold">
+            <img src="./assets/car-gold.svg" alt="2021 Toyota RAV4" class="car__img">
+          </figure>
+          <div class="car__info">
+            <h3 class="car__title">2021 Toyota RAV4 XLE</h3>
+            <ul class="car__specs">
+              <li><i class="fas fa-tachometer-alt"></i> 30,500 mi</li>
+              <li><i class="fas fa-gas-pump"></i> Hybrid</li>
+              <li><i class="fas fa-cogs"></i> Auto</li>
+            </ul>
+            <div class="car__footer">
+              <span class="car__price">$29,995</span>
+              <a href="#contact" class="car__link">Details <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section section--grey">
+    <div class="container">
+      <h2 class="section__title">Why Choose <span class="text--red">Americas Motor</span></h2>
+      <div class="services">
+        <div class="service">
+          <div class="service__icon"><i class="fas fa-search-dollar"></i></div>
+          <h3 class="service__title">Fair Pricing</h3>
+          <p class="service__para">No haggling, no hidden fees. The price you see is the price you pay.</p>
+        </div>
+        <div class="service">
+          <div class="service__icon"><i class="fas fa-clipboard-check"></i></div>
+          <h3 class="service__title">Inspected Vehicles</h3>
+          <p class="service__para">Every car passes a 150-point inspection before it reaches our lot.</p>
+        </div>
+        <div class="service">
+          <div class="service__icon"><i class="fas fa-exchange-alt"></i></div>
+          <h3 class="service__title">Trade-Ins Welcome</h3>
+          <p class="service__para">Get a fast, honest offer on your current vehicle toward your next one.</p>
+        </div>
+        <div class="service">
+          <div class="service__icon"><i class="fas fa-tools"></i></div>
+          <h3 class="service__title">Service Center</h3>
+          <p class="service__para">Oil changes, brakes, tires and more from certified technicians.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINANCING -->
+  <section id="financing" class="financing">
+    <div class="container financing__container">
+      <div class="financing__text">
+        <h2 class="financing__title">Financing for Every Credit Score</h2>
+        <p class="financing__para">First-time buyer? Rebuilding credit? Our finance team works with multiple lenders to find a payment that fits your budget.</p>
+      </div>
+      <a href="#contact" class="btn btn--white">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact">
+      <div class="contact__info">
+        <h2 class="section__title section__title--left">Visit <span class="text--red">Us</span></h2>
+        <p class="contact__para">Stop by for a test drive or send us a message and a team member will get back to you within one business day.</p>
+        <ul class="contact__list">
+          <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, Your City, ST 00000</li>
+          <li><i class="fas fa-phone"></i> (555) 555-5555</li>
+          <li><i class="far fa-envelope"></i> sales@americasmotor.com</li>
+          <li><i class="far fa-clock"></i> Mon–Sat: 9am – 7pm</li>
+        </ul>
+      </div>
+      <form class="contact__form" onsubmit="return false;">
+        <input class="contact__input" type="text" placeholder="Full Name" required>
+        <input class="contact__input" type="email" placeholder="Email" required>
+        <input class="contact__input" type="tel" placeholder="Phone">
+        <textarea class="contact__input contact__textarea" placeholder="Which car are you interested in?"></textarea>
+        <button class="btn btn--red" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="#" class="nav__logo">
+        <img src="./assets/logo.svg" alt="Americas Motor logo" class="nav__logo--img">
+        <span class="nav__logo--text footer__logo--text">Americas <span class="text--red">Motor</span></span>
+      </a>
+      <div class="footer__links">
+        <a href="#inventory" class="footer__link">Inventory</a>
+        <a href="#services" class="footer__link">Services</a>
+        <a href="#financing" class="footer__link">Financing</a>
+        <a href="#contact" class="footer__link">Contact</a>
+        <a href="../index.html" class="footer__link">Back to Portfolio</a>
+      </div>
+      <div class="footer__social">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+      </div>
+      <p class="footer__copy">Copyright © 2026 Americas Motor · Designed by Jose Carrasco</p>
+    </div>
+  </footer>
+
+</body>
+</html>
