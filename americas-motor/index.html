@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>America's Motors | Exotic &amp; Corvette Rentals in Tempe, AZ</title>
+<meta name="description" content="America's Motors rents Corvettes and exotic cars from our Tempe lounge, open 24 hours, with delivery available. Rated 4.9 on Google across 1,600+ reviews.">
+<meta name="theme-color" content="#0c0d10">
+<script>
+/* The intro is pure CSS and plays by itself (even where scripts are blocked).
+   With scripts: skip it for people who already saw it this visit or who ask for reduced motion. */
+(function(d){var h=d.documentElement;h.classList.add('js');
+ var seen=false;try{seen=sessionStorage.getItem('am_intro')==='1'}catch(e){}
+ var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+ if(seen||reduce)h.classList.add('skip','done');
+ function rescue(){if(!window.__amReady)[].forEach.call(d.querySelectorAll('.reveal'),function(e){e.classList.add('in')})}
+ setTimeout(rescue,4000);window.addEventListener('error',function(){setTimeout(rescue,0)});
+})(document);
+</script>
+
+<!-- Link previews (iMessage, Facebook, Slack, etc.)
+     Once the site has its final address, change og:url and the two image links to full URLs,
+     e.g. https://www.yourdomain.com/og-image.jpg -- Facebook and LinkedIn need the full URL. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="America's Motors">
+<meta property="og:title" content="America's Motors | Corvette &amp; Exotic Rentals in Tempe">
+<meta property="og:description" content="Corvettes and exotics from our Tempe lounge or delivered to you. Open 24 hours. Rated 4.9 on Google.">
+<meta property="og:image" content="og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="America's Motors guest lounge with the neon logo">
+<meta property="og:url" content="http://www.youcanrentme.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="America's Motors | Corvette &amp; Exotic Rentals in Tempe">
+<meta name="twitter:description" content="Corvettes and exotics from our Tempe lounge or delivered to you. Open 24 hours.">
+<meta name="twitter:image" content="og-image.jpg">
+
+<!-- Site icons -->
+<link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Business details for Google search -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "AutoRental",
+ "name": "America's Motors",
+ "description": "Corvette and exotic car rentals in Tempe, Arizona, with a guest lounge and delivery available.",
+ "url": "http://www.youcanrentme.com/",
+ "telephone": "+1-480-467-3485",
+ "image": "og-image.jpg",
+ "address": {
+  "@type": "PostalAddress",
+  "streetAddress": "1849 W Drake Dr #102",
+  "addressLocality": "Tempe",
+  "addressRegion": "AZ",
+  "postalCode": "85283",
+  "addressCountry": "US"
+ },
+ "openingHoursSpecification": {
+  "@type": "OpeningHoursSpecification",
+  "dayOfWeek": [
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday",
+   "Sunday"
+  ],
+  "opens": "00:00",
+  "closes": "23:59"
+ },
+ "areaServed": "Phoenix metro area",
+ "amenityFeature": [
+  {
+   "@type": "LocationFeatureSpecification",
+   "name": "Delivery",
+   "value": true
+  },
+  {
+   "@type": "LocationFeatureSpecification",
+   "name": "Guest lounge",
+   "value": true
+  }
+ ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-head" id="head">
+  <div class="wrap head-row">
+    <a class="brand" href="#top" aria-label="America's Motors home">
+      <svg class="brand-mark" viewBox="0 0 34 38" aria-hidden="true"><path d="M17 1 3 6v12c0 9 6 15.5 14 19 8-3.5 14-10 14-19V6L17 1Z" fill="none" stroke="#4f7dff" stroke-width="2"/><path d="M8 20h18M8 24h18M8 28h18" stroke="#ff2b3d" stroke-width="2"/><path d="m10 10 1 2 2 .2-1.6 1.3.5 2-1.9-1.1-1.8 1.1.5-2L7 12.2 9 12Z" fill="#fff"/></svg>
+      <span class="brand-name">America's <span>Motors</span></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#fleet">Fleet</a>
+      <a href="#protection">Protection</a>
+      <a href="#lounge">The Lounge</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#visit">Visit</a>
+      <a class="nav-call" href="tel:+14804673485">Call (480) 467-3485</a>
+      <a class="nav-call" href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car.">Text us</a>
+      <a class="btn btn-red" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book now</a>
+    </nav>
+  </div>
+</header>
+<div class="menu-scrim" id="scrim"></div>
+
+<!-- Cinematic opening -->
+<section class="stage" id="top" aria-label="Welcome">
+  <div class="shot int"><div class="int-drift"><img src="./assets/images/lounge.jpg" alt="The America's Motors guest lounge with pool table, drinks and the neon logo" fetchpriority="high"></div></div>
+  <div class="shade"></div>
+  <div class="grain"></div>
+  <div class="bar top"></div>
+  <div class="bar bot"></div>
+
+  <div class="slate">Tempe, Arizona &nbsp;·&nbsp; Open 24 hours<b>1849 W Drake Dr</b></div>
+
+  <div class="hero">
+    <div class="wrap">
+      <h1><span class="neon">Drive something</span><span class="neon-red">unforgettable.</span></h1>
+      <p>Corvettes, exotics and luxury SUVs, handed over from our Tempe lounge or delivered to your door. Rated 4.9 by more than 1,600 drivers.</p>
+      <div class="ctas">
+        <a class="btn btn-red" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book your car
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="pair">
+          <a class="btn btn-ghost" href="tel:+14804673485"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><span class="l">(480) 467-3485</span><span class="s">Call</span></a>
+          <a class="btn btn-ghost" href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car."><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-5A8 8 0 1 1 21 12Z"/></svg>Text us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stage-ui">
+    <button class="chip" id="skip">Skip intro</button>
+    <button class="chip" id="replay">Replay intro</button>
+  </div>
+</section>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="wrap">
+    <div class="stat"><b>4.9<span class="star">★</span></b><span>Google rating</span></div>
+    <div class="stat"><b>1,600+</b><span>Google reviews</span></div>
+    <div class="stat"><b>24/7</b><span>Open every hour</span></div>
+    <div class="stat"><b>To you</b><span>Delivery available</span></div>
+  </div>
+</div>
+
+<!-- Book: pick dates & times. The request is sent as a text message to the owner:
+     phones open Messages with everything filled in; computers show the message to copy. -->
+<section class="block book" id="book">
+  <div class="wrap">
+    <div class="book-card reveal">
+      <div class="book-head">
+        <div>
+          <div class="eyebrow">Reserve</div>
+          <h2>Pick your <br>dates.</h2>
+        </div>
+        <p class="lede">Choose your car, pickup and return times. We'll text you back to confirm availability and price.</p>
+      </div>
+      <form id="bookForm" class="book-form" action="#book" novalidate>
+        <div class="bf bf-car">
+          <label for="bkCar">Car</label>
+          <select id="bkCar" name="car">
+            <option value="">Not sure yet, help me choose</option>
+              <optgroup label="Exotics">
+                <option>Lamborghini Huracán Spyder</option>
+                <option>McLaren 12C</option>
+                <option>Aston Martin DB11</option>
+                <option>BMW i8 Roadster</option>
+              </optgroup>
+              <optgroup label="Luxury SUVs">
+                <option>Mercedes-AMG G-Class</option>
+                <option>Cadillac Escalade</option>
+              </optgroup>
+              <optgroup label="Corvettes">
+                <option>Stingray Convertible — Red</option>
+                <option>Stingray — Racing Yellow</option>
+                <option>Stingray — Black</option>
+                <option>Stingray — Silver</option>
+              </optgroup>
+              <optgroup label="Everyday">
+                <option>Chevrolet Malibu</option>
+                <option>Fiat 500</option>
+              </optgroup>
+          </select>
+        </div>
+        <fieldset class="bf-when">
+          <legend>Pickup</legend>
+          <div class="bf-pair">
+            <div class="bf"><label for="bkFrom" class="sr">Pickup date</label><input type="date" id="bkFrom" required><span class="err">Choose a pickup date</span></div>
+            <div class="bf"><label for="bkFromT" class="sr">Pickup time</label><select id="bkFromT"><option value="00:00">12:00 AM</option><option value="00:30">12:30 AM</option><option value="01:00">1:00 AM</option><option value="01:30">1:30 AM</option><option value="02:00">2:00 AM</option><option value="02:30">2:30 AM</option><option value="03:00">3:00 AM</option><option value="03:30">3:30 AM</option><option value="04:00">4:00 AM</option><option value="04:30">4:30 AM</option><option value="05:00">5:00 AM</option><option value="05:30">5:30 AM</option><option value="06:00">6:00 AM</option><option value="06:30">6:30 AM</option><option value="07:00">7:00 AM</option><option value="07:30">7:30 AM</option><option value="08:00">8:00 AM</option><option value="08:30">8:30 AM</option><option value="09:00">9:00 AM</option><option value="09:30">9:30 AM</option><option value="10:00" selected>10:00 AM</option><option value="10:30">10:30 AM</option><option value="11:00">11:00 AM</option><option value="11:30">11:30 AM</option><option value="12:00">12:00 PM</option><option value="12:30">12:30 PM</option><option value="13:00">1:00 PM</option><option value="13:30">1:30 PM</option><option value="14:00">2:00 PM</option><option value="14:30">2:30 PM</option><option value="15:00">3:00 PM</option><option value="15:30">3:30 PM</option><option value="16:00">4:00 PM</option><option value="16:30">4:30 PM</option><option value="17:00">5:00 PM</option><option value="17:30">5:30 PM</option><option value="18:00">6:00 PM</option><option value="18:30">6:30 PM</option><option value="19:00">7:00 PM</option><option value="19:30">7:30 PM</option><option value="20:00">8:00 PM</option><option value="20:30">8:30 PM</option><option value="21:00">9:00 PM</option><option value="21:30">9:30 PM</option><option value="22:00">10:00 PM</option><option value="22:30">10:30 PM</option><option value="23:00">11:00 PM</option><option value="23:30">11:30 PM</option></select></div>
+          </div>
+        </fieldset>
+        <fieldset class="bf-when">
+          <legend>Return</legend>
+          <div class="bf-pair">
+            <div class="bf"><label for="bkTo" class="sr">Return date</label><input type="date" id="bkTo" required><span class="err">Return must be after pickup</span></div>
+            <div class="bf"><label for="bkToT" class="sr">Return time</label><select id="bkToT"><option value="00:00">12:00 AM</option><option value="00:30">12:30 AM</option><option value="01:00">1:00 AM</option><option value="01:30">1:30 AM</option><option value="02:00">2:00 AM</option><option value="02:30">2:30 AM</option><option value="03:00">3:00 AM</option><option value="03:30">3:30 AM</option><option value="04:00">4:00 AM</option><option value="04:30">4:30 AM</option><option value="05:00">5:00 AM</option><option value="05:30">5:30 AM</option><option value="06:00">6:00 AM</option><option value="06:30">6:30 AM</option><option value="07:00">7:00 AM</option><option value="07:30">7:30 AM</option><option value="08:00">8:00 AM</option><option value="08:30">8:30 AM</option><option value="09:00">9:00 AM</option><option value="09:30">9:30 AM</option><option value="10:00" selected>10:00 AM</option><option value="10:30">10:30 AM</option><option value="11:00">11:00 AM</option><option value="11:30">11:30 AM</option><option value="12:00">12:00 PM</option><option value="12:30">12:30 PM</option><option value="13:00">1:00 PM</option><option value="13:30">1:30 PM</option><option value="14:00">2:00 PM</option><option value="14:30">2:30 PM</option><option value="15:00">3:00 PM</option><option value="15:30">3:30 PM</option><option value="16:00">4:00 PM</option><option value="16:30">4:30 PM</option><option value="17:00">5:00 PM</option><option value="17:30">5:30 PM</option><option value="18:00">6:00 PM</option><option value="18:30">6:30 PM</option><option value="19:00">7:00 PM</option><option value="19:30">7:30 PM</option><option value="20:00">8:00 PM</option><option value="20:30">8:30 PM</option><option value="21:00">9:00 PM</option><option value="21:30">9:30 PM</option><option value="22:00">10:00 PM</option><option value="22:30">10:30 PM</option><option value="23:00">11:00 PM</option><option value="23:30">11:30 PM</option></select></div>
+          </div>
+        </fieldset>
+        <fieldset class="bf-hand">
+          <legend>Pickup or delivery</legend>
+          <div class="bf-chips">
+            <input type="radio" name="hand" id="bkLounge" value="lounge" checked><label for="bkLounge">Pick up at the lounge</label>
+            <input type="radio" name="hand" id="bkDeliver" value="deliver"><label for="bkDeliver">Deliver to me</label>
+          </div>
+          <div class="bf bf-addr"><label for="bkAddr" class="sr">Delivery address</label><input id="bkAddr" placeholder="Delivery address (hotel, home, airport…)" autocomplete="street-address"><span class="err">Add where we should bring the car</span></div>
+        </fieldset>
+        <div class="book-foot">
+          <p class="book-sum" id="bkSum" aria-live="polite">Choose your dates to see the rental length.</p>
+          <button class="btn btn-red" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-5A8 8 0 1 1 21 12Z"/></svg>Text this request</button>
+        </div>
+        <noscript><p class="book-alt">To request these dates, call or text <a href="tel:+14804673485">(480) 467-3485</a>.</p></noscript>
+        <p class="book-alt">Prefer to book online? <a href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book at youcanrentme.com</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Fleet -->
+<section class="block" id="fleet">
+  <div class="wrap">
+    <div class="head-split reveal">
+      <div>
+        <div class="eyebrow">The fleet</div>
+        <h2>Pick your <br>weekend.</h2>
+        <p class="lede">Every car is detailed and ready before you arrive, with clear pickup instructions sent ahead of time.</p>
+      </div>
+      <div class="filters" role="radiogroup" aria-label="Filter cars by category">
+        <input type="radio" name="fleet" id="f-all" value="all" checked><label for="f-all">All</label>
+        <input type="radio" name="fleet" id="f-corvette" value="corvette"><label for="f-corvette">Corvettes</label>
+        <input type="radio" name="fleet" id="f-exotic" value="exotic"><label for="f-exotic">Exotics</label>
+        <input type="radio" name="fleet" id="f-suv" value="suv"><label for="f-suv">Luxury SUVs</label>
+        <input type="radio" name="fleet" id="f-everyday" value="everyday"><label for="f-everyday">Everyday</label>
+      </div>
+    </div>
+
+    <p class="fleet-count" id="fleetCount" aria-live="polite"></p>
+    <div class="fleet" id="fleetGrid">
+      <!-- Rates are placeholders. Replace "Rate on request" with the real daily price for each car.
+           PHOTOS: each car lists its photos in data-exterior and data-interior, separated by " | ".
+           Example: data-exterior="./assets/images/lamborghini-huracan.jpg | img/huracan-side.jpg" data-interior="img/huracan-seats.jpg | img/huracan-dash.jpg"
+           The first exterior photo is the one shown on the card. Cars with no interior photos show "coming soon". -->
+      <article class="car reveal" data-exterior="./assets/images/lamborghini-huracan.jpg" data-interior="" data-c="exotic">
+        <figure><img src="./assets/images/lamborghini-huracan.jpg" alt="Green Lamborghini Huracán Spyder" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Lamborghini Huracán Spyder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-exotic" title="Show only this category">Exotic · Convertible</label><h3>Lamborghini Huracán Spyder</h3><p>V10, soft top, and the loudest color on the road.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Lamborghini Huracán Spyder">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/mclaren-12c.jpg" data-interior="" data-c="exotic">
+        <figure><img src="./assets/images/mclaren-12c.jpg" alt="Color-shift McLaren 12C with dihedral doors open" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of McLaren 12C"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-exotic" title="Show only this category">Exotic · Coupe</label><h3>McLaren 12C</h3><p>Dihedral doors and a color-shift finish that changes with the light.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="McLaren 12C">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/aston-martin-db11.jpg" data-interior="" data-c="exotic">
+        <figure><img src="./assets/images/aston-martin-db11.jpg" alt="Black Aston Martin DB11" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Aston Martin DB11"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-exotic" title="Show only this category">Exotic · Grand tourer</label><h3>Aston Martin DB11</h3><p>British grand touring with a hand-finished cabin. Made for long, fast drives in style.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Aston Martin DB11">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/bmw-i8.jpg" data-interior="" data-c="exotic">
+        <figure><img src="./assets/images/bmw-i8.jpg" alt="Orange BMW i8 Roadster above the Phoenix valley" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of BMW i8 Roadster"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-exotic" title="Show only this category">Exotic · Hybrid roadster</label><h3>BMW i8 Roadster</h3><p>Butterfly doors, open top, and a quiet electric start.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="BMW i8 Roadster">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/mercedes-g-class.jpg" data-interior="" data-c="suv">
+        <figure><img src="./assets/images/mercedes-g-class.jpg" alt="Black Mercedes-AMG G-Class outside America's Motors" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Mercedes-AMG G-Class"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-suv" title="Show only this category">Luxury SUV · AMG</label><h3>Mercedes-AMG G-Class</h3><p>The icon. Boxy, loud and impossible to miss.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Mercedes-AMG G-Class">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/cadillac-escalade.jpg" data-interior="" data-c="suv">
+        <figure><img src="./assets/images/cadillac-escalade.jpg" alt="Black Cadillac Escalade in front of the America's Motors building" loading="lazy" style="object-position:50% 62%"><button class="car-view" type="button" aria-label="View exterior and interior photos of Cadillac Escalade"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-suv" title="Show only this category">Luxury SUV · 3 rows</label><h3>Cadillac Escalade</h3><p>Three rows of leather seating for the whole group. Great for airport runs and nights out.</p>
+          <a class="plan-link" href="#protection" data-plan="exotic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Exotic Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Cadillac Escalade">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/corvette-red.jpg" data-interior="" data-c="corvette">
+        <figure><img src="./assets/images/corvette-red.jpg" alt="Red Corvette Stingray convertible at the Grand Canyon" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Stingray Convertible — Red"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-corvette" title="Show only this category">Corvette · Convertible</label><h3>Stingray Convertible — Red</h3><p>Made for the drive up to the Grand Canyon.</p>
+          <a class="plan-link" href="#protection" data-plan="corvette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Corvette Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Stingray Convertible — Red">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/corvette-yellow.jpg" data-interior="" data-c="corvette">
+        <figure><img src="./assets/images/corvette-yellow.jpg" alt="Yellow Corvette Stingray outside the America's Motors building" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Stingray — Racing Yellow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-corvette" title="Show only this category">Corvette · Coupe</label><h3>Stingray — Racing Yellow</h3><p>Our customers' favorite, parked out front and ready to go.</p>
+          <a class="plan-link" href="#protection" data-plan="corvette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Corvette Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Stingray — Racing Yellow">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/corvette-black.jpg" data-interior="" data-c="corvette">
+        <figure><img src="./assets/images/corvette-black.jpg" alt="Black Corvette Stingray with the door open" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Stingray — Black"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-corvette" title="Show only this category">Corvette · Coupe</label><h3>Stingray — Black</h3><p>Understated until you start it.</p>
+          <a class="plan-link" href="#protection" data-plan="corvette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Corvette Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Stingray — Black">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/corvette-silver.jpg" data-interior="" data-c="corvette">
+        <figure><img src="./assets/images/corvette-silver.jpg" alt="Silver Corvette Stingray at sunset" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Stingray — Silver"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-corvette" title="Show only this category">Corvette · Coupe</label><h3>Stingray — Silver</h3><p>A clean classic for a sunset drive.</p>
+          <a class="plan-link" href="#protection" data-plan="corvette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Corvette Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Stingray — Silver">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/chevrolet-malibu.jpg" data-interior="" data-c="everyday">
+        <figure><img src="./assets/images/chevrolet-malibu.jpg" alt="White Chevrolet Malibu" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Chevrolet Malibu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-everyday" title="Show only this category">Everyday · Sedan</label><h3>Chevrolet Malibu</h3><p>Comfortable, efficient and easy to drive. A smart pick for work trips or longer stays.</p>
+          <a class="plan-link" href="#protection" data-plan="everyday"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Everyday Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Chevrolet Malibu">Check dates →</a></div></div>
+      </article>
+      <article class="car reveal" data-exterior="./assets/images/fiat-500.jpg" data-interior="" data-c="everyday">
+        <figure><img src="./assets/images/fiat-500.jpg" alt="Gray Fiat 500" loading="lazy"><button class="car-view" type="button" aria-label="View exterior and interior photos of Fiat 500"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-8 8"/></svg>View photos</button></figure>
+        <div class="car-body"><label class="tag" for="f-everyday" title="Show only this category">Everyday · Compact</label><h3>Fiat 500</h3><p>Easy on gas and easy to park, for errands or a long stay.</p>
+          <a class="plan-link" href="#protection" data-plan="everyday"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/></svg>Optional Everyday Protection</a>
+          <div class="row"><span class="rate"><b>Rate on request</b></span><a class="go" href="#book" data-pick="Fiat 500">Check dates →</a></div></div>
+      </article>
+    </div>
+    <div class="swipe-hint" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>Swipe to see more
+      <span class="dots" id="dots"></span>
+    </div>
+  </div>
+</section>
+
+<!-- Protection plans
+     Coverage lines and prices below are placeholders. The owner must supply the real
+     terms, limits and prices (and have them reviewed) before this goes live. -->
+<section class="block protection" id="protection">
+  <div class="wrap">
+    <div class="head-split reveal">
+      <div>
+        <div class="eyebrow">Optional protection</div>
+        <h2>Peace of mind, <br>built in.</h2>
+        <p class="lede">Add a protection plan to any rental for extra peace of mind. Each class of car has its own plan, and every plan is optional.</p>
+      </div>
+    </div>
+    <div class="plans">
+      <article class="plan reveal" id="plan-everyday">
+        <div class="shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div><div class="for">For the Malibu, Fiat 500 and everyday cars</div><h3>Everyday Protection</h3></div>
+        <!-- Placeholder: replace "Ask us" with the daily price, e.g. <b>$29</b><span>per day</span> -->
+        <div class="price"><b>Ask us</b><span>Optional · added per day</span></div>
+        <ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Reduced damage deductible</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Tire and windshield coverage</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Roadside assistance</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Lockout and lost-key help</span></li></ul>
+        <a class="btn btn-ghost" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Add when you book</a>
+      </article>
+      <article class="plan featured reveal" id="plan-corvette"><span class="badge">Recommended</span>
+        <div class="shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div><div class="for">For every Corvette Stingray</div><h3>Corvette Protection</h3></div>
+        <!-- Placeholder: replace "Ask us" with the daily price, e.g. <b>$29</b><span>per day</span> -->
+        <div class="price"><b>Ask us</b><span>Optional · added per day</span></div>
+        <ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Reduced damage deductible</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Wheel and tire coverage</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Minor paint chip and scratch repair</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Roadside assistance and towing</span></li></ul>
+        <a class="btn btn-ghost" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Add when you book</a>
+      </article>
+      <article class="plan reveal" id="plan-exotic">
+        <div class="shield"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <div><div class="for">For exotics and luxury SUVs</div><h3>Exotic Protection</h3></div>
+        <!-- Placeholder: replace "Ask us" with the daily price, e.g. <b>$29</b><span>per day</span> -->
+        <div class="price"><b>Ask us</b><span>Optional · added per day</span></div>
+        <ul><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Lowest damage deductible</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Wheel, tire and glass coverage</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Minor cosmetic repair</span></li><li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 5 5 9-10"/></svg><span>Priority roadside assistance and towing</span></li></ul>
+        <a class="btn btn-ghost" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Add when you book</a>
+      </article>
+    </div>
+    <p class="fine reveal">Protection plans are optional and offered by America's Motors. Coverage, limits and pricing are confirmed when you book. Ask us about anything not listed.</p>
+  </div>
+</section>
+
+<!-- Lounge -->
+<section class="block lounge" id="lounge">
+  <div class="wrap lounge-grid">
+    <div class="lounge-pic reveal"><img src="./assets/images/lounge.jpg" alt="Pool table, drinks fridge and coffee bar in the guest lounge" loading="lazy"></div>
+    <div class="reveal">
+      <div class="eyebrow" style="color:#7d9dff">The guest lounge</div>
+      <h2>Not a rental counter. A hangout.</h2>
+      <p class="lede">Pickup happens indoors, out of the Arizona sun. Grab a cold drink and rack up a game while we get your car ready.</p>
+      <ul class="perks">
+        <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 3h10l-1 18H8L7 3ZM7 8h10"/></svg></i><div><b>Cold drinks &amp; coffee</b><span>Fully stocked fridges and a coffee bar.</span></div></li>
+        <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></i><div><b>Pool table &amp; big screens</b><span>Something to do while paperwork wraps up.</span></div></li>
+        <li><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></i><div><b>Open 24 hours</b><span>Early flights and late arrivals are covered.</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Delivery -->
+<section class="block" id="delivery">
+  <div class="wrap">
+    <div class="band reveal">
+      <img src="./assets/images/bmw-i8.jpg" alt="" loading="lazy">
+      <div class="band-body">
+        <div class="eyebrow">Delivery</div>
+        <h2>We'll bring it to you.</h2>
+        <p class="lede" style="color:#c8ccd4">Tell us where you'll be and when, and the car shows up clean and ready to go.</p>
+        <div class="steps">
+          <div class="step"><b>Reserve</b><span>Pick your car and dates online.</span></div>
+          <div class="step"><b>Drop-off</b><span>We deliver it, or you visit the lounge.</span></div>
+          <div class="step"><b>Drive</b><span>Return it the same way when you're done.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="block" id="reviews" style="padding-top:0">
+  <div class="wrap">
+    <div class="head-split reveal">
+      <div>
+        <div class="eyebrow">Reviews</div>
+        <h2>Like renting from <br>a good friend.</h2>
+      </div>
+      <div class="score"><b>4.9</b><span>Average Google rating<br>across 1,600+ reviews</span></div>
+    </div>
+    <div class="reviews">
+      <figure class="review reveal"><div class="stars" aria-label="5 stars">★★★★★</div><q>… like renting from a good buddy. Great communication the entire time. The Corvette we rented was well maintained and drove like a dream. I would rent from them again.</q><small>Google review</small></figure>
+      <figure class="review reveal"><div class="stars" aria-label="5 stars">★★★★★</div><q>Rented a 2018 Corvette on Turo from them at a very reasonable rate. America's Motors had the car ready a couple hours before with clear instructions on pickup …</q><small>Google review</small></figure>
+      <figure class="review reveal"><div class="stars" aria-label="5 stars">★★★★★</div><q>Outstanding host. Corvette was in great shape, clean and a ton of fun! America's Motors was responsive and helpful. Would absolutely rent from them again.</q><small>Google review</small></figure>
+    </div>
+    <!-- Owner: for a direct link, use the "Share review form" or listing link from your Google Business Profile -->
+    <div class="more-reviews reveal">
+      <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=America%27s+Motors+1849+W+Drake+Dr+Tempe+AZ" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M21.6 12.2c0-.7-.1-1.4-.2-2H12v3.8h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3Z"/><path fill="#34A853" d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22Z"/><path fill="#FBBC05" d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3.1a10 10 0 0 0 0 9.2L6.4 14Z"/><path fill="#EA4335" d="M12 5.9c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.4L6.4 10c.8-2.4 3-4.1 5.6-4.1Z"/></svg>
+        Read all reviews on Google</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ
+     DRAFT: every highlighted (class="tbd") answer is a placeholder. Replace each one with the
+     owner's real policy, then delete the ".tbd" rule in the CSS to turn the highlighting off. -->
+<section class="block" id="faq" style="padding-top:0">
+  <div class="wrap faq-grid">
+    <div class="reveal">
+      <div class="eyebrow">Before you book</div>
+      <h2>Good to <br>know.</h2>
+      <p class="lede">The questions we hear most. Anything else, just call or text.</p>
+      <div class="faq-ctas">
+        <a class="btn btn-ghost" href="tel:+14804673485">Call us</a>
+        <a class="btn btn-ghost" href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car.">Text us</a>
+      </div>
+    </div>
+    <div class="faq">
+      <details class="q reveal"><summary>How old do I need to be to rent?<i aria-hidden="true"></i></summary><div class="a"><p>Drivers must be at least <span class="tbd">21</span> for Corvettes and everyday cars, and at least <span class="tbd">25</span> for exotics.</p></div></details>
+      <details class="q reveal"><summary>What do I need to bring?<i aria-hidden="true"></i></summary><div class="a"><p>A valid driver's license, a major credit card in the renter's name, and <span class="tbd">proof of full-coverage auto insurance</span>.</p></div></details>
+      <details class="q reveal"><summary>Is there a security deposit?<i aria-hidden="true"></i></summary><div class="a"><p>Yes. A refundable hold of <span class="tbd">$500 for Corvettes and everyday cars and $2,500 for exotics</span> is placed on your card and released after the car is returned.</p></div></details>
+      <details class="q reveal"><summary>Are there mileage limits?<i aria-hidden="true"></i></summary><div class="a"><p>Each rental includes <span class="tbd">150 miles per day</span>. Extra miles are <span class="tbd">$1 per mile</span>. Planning a road trip? Tell us when you book.</p></div></details>
+      <details class="q reveal"><summary>What about fuel?<i aria-hidden="true"></i></summary><div class="a"><p>Return the car with the same fuel level you received it with. <span class="tbd">Premium fuel is required for Corvettes and exotics.</span></p></div></details>
+      <details class="q reveal"><summary>Do I need my own insurance?<i aria-hidden="true"></i></summary><div class="a"><p><span class="tbd">Yes, your personal auto policy must cover rental cars.</span> You can also add one of our optional <a href="#protection">protection plans</a> for extra coverage.</p></div></details>
+      <details class="q reveal"><summary>Can I cancel or change my booking?<i aria-hidden="true"></i></summary><div class="a"><p><span class="tbd">Free cancellation up to 48 hours before pickup.</span> To change dates, call or text us and we'll do our best to help.</p></div></details>
+      <details class="q reveal"><summary>How do I find you?<i aria-hidden="true"></i></summary><div class="a"><p>We're at 1849 W Drake Dr, Suite 102, in Tempe. Look for the big <b style="color:#fff">Indoor Autosales</b> sign on the building. We're inside. Park out front and come in to our lounge. Open 24 hours. <a href="https://www.google.com/maps/search/?api=1&amp;query=1849+W+Drake+Dr+%23102+Tempe+AZ+85283" target="_blank" rel="noopener">Get directions</a></p></div></details>
+      <details class="q reveal"><summary>Where do you deliver?<i aria-hidden="true"></i></summary><div class="a"><p>We deliver <span class="tbd">across the Phoenix metro area</span>, including hotels and homes. Delivery fees depend on distance, and we'll confirm yours when you book.</p></div></details>
+      <details class="q reveal"><summary>Can I smoke in the car or bring pets?<i aria-hidden="true"></i></summary><div class="a"><p><span class="tbd">No smoking or vaping in any vehicle. Pets are not allowed.</span> A cleaning fee applies if either rule is broken.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- Visit -->
+<section class="block" id="visit" style="padding-top:0">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:36px">
+      <div class="eyebrow">Visit</div>
+      <h2>Come say hi.</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="card reveal">
+        <h3>America's Motors</h3>
+        <ul class="info">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <div><a href="https://www.google.com/maps/search/?api=1&query=1849+W+Drake+Dr+%23102+Tempe+AZ+85283" target="_blank" rel="noopener">1849 W Drake Dr #102<br>Tempe, AZ 85283</a><small>Get directions · Look for the <b style="color:#fff;font-weight:600">Indoor Autosales</b> sign, we're inside</small></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg>
+            <div><a href="tel:+14804673485">(480) 467-3485</a><small>Call any time, or <a href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car." style="color:#fff;text-decoration:underline">send us a text</a></small></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+            <div><b>Open 24 hours</b><small>Every day</small></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>
+            <div><a href="http://www.youcanrentme.com/" target="_blank" rel="noopener">youcanrentme.com</a><small>Online booking</small></div></li>
+        </ul>
+        <div style="margin-top:26px"><a class="btn btn-red" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book your car</a></div>
+      </div>
+      <div class="storefront reveal">
+        <img src="./assets/images/storefront.jpg" alt="The Indoor Autosales storefront on W Drake Dr, home of America's Motors" loading="lazy">
+        <div class="pin"><b>Look for the Indoor Autosales sign</b>We're inside, Suite 102</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a class="brand" href="#top" aria-label="Back to top">
+        <svg class="brand-mark" viewBox="0 0 34 38" aria-hidden="true"><path d="M17 1 3 6v12c0 9 6 15.5 14 19 8-3.5 14-10 14-19V6L17 1Z" fill="none" stroke="#4f7dff" stroke-width="2"/><path d="M8 20h18M8 24h18M8 28h18" stroke="#ff2b3d" stroke-width="2"/><path d="m10 10 1 2 2 .2-1.6 1.3.5 2-1.9-1.1-1.8 1.1.5-2L7 12.2 9 12Z" fill="#fff"/></svg>
+        <span class="brand-name">America's <span>Motors</span></span>
+      </a>
+      <p>Corvette and exotic car rentals in Tempe, Arizona. Open 24 hours, with delivery available.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul class="foot-list">
+        <li><a href="tel:+14804673485">(480) 467-3485</a></li>
+        <li><a href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car.">Text us</a></li>
+        <!-- Owner: replace with the business email, e.g. <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a> -->
+        <li><span class="tbd">hello@yourdomain.com</span></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=1849+W+Drake+Dr+%23102+Tempe+AZ+85283" target="_blank" rel="noopener">1849 W Drake Dr #102<br>Tempe, AZ 85283</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <ul class="foot-list">
+        <li><a href="#fleet">The fleet</a></li>
+        <li><a href="#protection">Protection plans</a></li>
+        <li><a href="#faq">Rental FAQ</a></li>
+        <li><a href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book online</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Follow</h4>
+      <!-- Owner: add each profile link as href="https://..." and remove the "tbd" class. Delete any you don't use. -->
+      <div class="socials">
+        <a class="soc tbd" aria-label="Instagram (link coming soon)" title="Add Instagram link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a class="soc tbd" aria-label="Facebook (link coming soon)" title="Add Facebook link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5Z"/></svg></a>
+        <a class="soc tbd" aria-label="TikTok (link coming soon)" title="Add TikTok link"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 3c.4 2.3 1.9 3.8 4 4v3.3a7.5 7.5 0 0 1-4-1.3v6.5A5.5 5.5 0 1 1 11 10v3.4a2.2 2.2 0 1 0 2.2 2.2V3h3.3Z"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© <span id="yr"></span> America's Motors · Tempe, Arizona</span>
+    <span><a href="americas-motors-privacy.html">Privacy policy</a></span>
+  </div>
+</footer>
+
+<!-- Car photo viewer: opens when a car is clicked -->
+<div class="gv-scrim" id="gvScrim"></div>
+<div class="gv" id="gv" role="dialog" aria-modal="true" aria-labelledby="gvTitle" aria-hidden="true">
+  <button class="gv-x" type="button" id="gvClose" aria-label="Close photos"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="gv-media">
+    <div class="gv-tabs" role="tablist" aria-label="Photo views">
+      <button type="button" role="tab" data-view="exterior" aria-selected="true">Exterior<small id="gvNExt"></small></button>
+      <button type="button" role="tab" data-view="interior" aria-selected="false">Interior<small id="gvNInt"></small></button>
+    </div>
+    <div class="gv-stage" id="gvStage">
+      <img id="gvImg" alt="">
+      <div class="gv-empty"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 3h6a2 2 0 0 1 2 2v7H9L7 3Z"/><path d="M6 12h11a2 2 0 0 1 2 2v2H6v-4Z"/><path d="M8 16v5M16 16v5"/></svg><b>Interior photos coming soon</b><span>Want to see inside this car? Text us and we'll send you photos.</span>
+        <a class="btn btn-ghost" href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20could%20you%20send%20me%20interior%20photos%3F">Text us for photos</a></div>
+      <button class="gv-nav prev" type="button" id="gvPrev" aria-label="Previous photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m15 6-6 6 6 6"/></svg></button>
+      <button class="gv-nav next" type="button" id="gvNext" aria-label="Next photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m9 6 6 6-6 6"/></svg></button>
+      <span class="gv-count" id="gvCount"></span>
+    </div>
+    <div class="gv-thumbs" id="gvThumbs"></div>
+  </div>
+  <div class="gv-info">
+    <span class="tag" id="gvTag"></span>
+    <h2 id="gvTitle"></h2>
+    <p id="gvDesc"></p>
+    <a class="plan-link" href="#protection" id="gvPlan"></a>
+    <div class="gv-acts">
+      <span class="rate" id="gvRate"></span>
+      <a class="btn btn-red" href="#book" id="gvPick">Pick dates for this car</a>
+      <a class="btn btn-ghost" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book online</a>
+    </div>
+  </div>
+</div>
+
+<!-- Call / Text window: Call and Text buttons open this on the page instead of jumping to another app -->
+<div class="cm-scrim" id="cmScrim"></div>
+<div class="cm" id="cm" role="dialog" aria-modal="true" aria-labelledby="cmTitle" data-mode="tel">
+  <button class="cm-x" type="button" id="cmClose" aria-label="Close"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  <div class="cm-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-for="tel"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/></svg><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-for="sms"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20.5l1.4-5A8 8 0 1 1 21 12Z"/></svg></div>
+  <div class="eyebrow">America's Motors</div>
+  <h2 id="cmTitle"><span data-for="tel">Call us</span><span data-for="sms">Text us</span></h2>
+  <span class="cm-num">(480) 467-3485</span>
+  <p class="cm-sub"><span data-for="tel">Open 24 hours, every day.</span><span data-for="sms">Send a text to this number. Here's a message you can copy:</span></p>
+  <div class="cm-msg">
+    <label for="cmText">Your message</label>
+    <textarea id="cmText">Hi America's Motors, I'd like to rent a car. </textarea>
+  </div>
+  <div class="cm-acts">
+    <button class="btn btn-red" type="button" id="cmCopyNum"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span>Copy number</span></button>
+    <button class="btn btn-ghost" type="button" id="cmCopyMsg" data-for="sms"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span>Copy message</span></button>
+    <a class="btn btn-ghost" href="tel:+14804673485" data-direct data-for="tel">Call from this device</a>
+    <a class="btn btn-ghost" href="sms:+14804673485" data-direct data-for="sms" id="cmSmsDirect">Text from this device</a>
+  </div>
+  <p class="cm-swap"><span data-for="tel">Prefer to text? </span><span data-for="sms">Prefer to call? </span><button type="button" id="cmSwap"><span data-for="tel">Text us instead</span><span data-for="sms">Call us instead</span></button></p>
+</div>
+
+<div class="callbar" id="callbar">
+  <a class="btn btn-ghost" href="tel:+14804673485">Call</a>
+  <a class="btn btn-ghost" href="sms:+14804673485?&amp;body=Hi%20America%27s%20Motors%2C%20I%27d%20like%20to%20rent%20a%20car.">Text</a>
+  <a class="btn btn-red" href="http://www.youcanrentme.com/" target="_blank" rel="noopener">Book now</a>
+</div>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
